@@ -1,0 +1,16 @@
+db:
+C:\Users\Gary\data\db
+
+***startup db:
+"C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe"
+
+***RoboMongo:
+3t installed
+
+users:
+npm install
+npm install --save mocha nodemon mongoose
+node test/test_helper.js
+
+nodemon: (automate testing)
+package.json script - "test": "nodemon --exec 'mocha -R min'"
